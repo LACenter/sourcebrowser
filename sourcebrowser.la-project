@@ -1,0 +1,9 @@
+language=JScript
+type= UI (Standard User Interface)
+launcherid=LA-661447718685525986785557
+macbundle=0
+macbundle-icon=
+publish-oncompile=1
+targets=
+mainfile=sourcebrowser.js
+20file=mainform.js
