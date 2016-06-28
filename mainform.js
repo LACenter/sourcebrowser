@@ -61,7 +61,7 @@ function mainform_Button2_OnClick(Sender) {
             list.Items.item[i].Selected = true;
             var fs = new TFileStream(location+list.Items.Item[i].SubItems.Strings[1], fmCreate);
             http.Clear;
-            http.urlGetBinary(location+list.Items.Item[i].SubItems.Strings[2], fs);
+            http.urlGetBinary(list.Items.Item[i].SubItems.Strings[2], fs);
             delete fs;
             list.Items.item[i].Checked = false;
             list.Items.item[i].Selected = false;
